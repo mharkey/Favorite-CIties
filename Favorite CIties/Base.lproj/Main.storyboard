@@ -34,7 +34,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CcA-Y7-8jT">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CcA-Y7-8jT">
                                 <rect key="frame" x="112.5" y="90" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="9S7-rS-HGg"/>
@@ -44,7 +44,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="19B-hs-5Vf">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="19B-hs-5Vf">
                                 <rect key="frame" x="112.5" y="141" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="8Er-jL-wK8"/>
@@ -54,7 +54,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Population" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XRb-zS-bgr">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Population" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XRb-zS-bgr">
                                 <rect key="frame" x="112.5" y="195" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="CzV-0L-el1"/>
@@ -64,15 +64,15 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L7o-Xv-nqG">
-                                <rect key="frame" x="62.5" y="267" width="250" height="150"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="L7o-Xv-nqG">
+                                <rect key="frame" x="62.5" y="267" width="250" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="8wx-CL-oVq"/>
                                     <constraint firstAttribute="height" constant="128" id="wdF-4p-i8x"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AnB-Pc-0CW">
-                                <rect key="frame" x="112" y="90" width="150" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AnB-Pc-0CW">
+                                <rect key="frame" x="112.5" y="90" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="DgD-By-FRE"/>
                                     <constraint firstAttribute="height" constant="30" id="XOC-WG-bpD"/>
@@ -81,8 +81,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x06-oQ-nAE">
-                                <rect key="frame" x="112" y="141" width="150" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="State" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="x06-oQ-nAE">
+                                <rect key="frame" x="112.5" y="141" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="150" id="4ud-mP-TLa"/>
                                     <constraint firstAttribute="height" constant="30" id="Dcw-m9-2e1"/>
@@ -91,8 +91,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Population" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TD9-Gj-3g5">
-                                <rect key="frame" x="112" y="195" width="150" height="30"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Population" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TD9-Gj-3g5">
+                                <rect key="frame" x="112.5" y="195" width="150" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0Xb-88-ea2"/>
                                     <constraint firstAttribute="width" constant="150" id="I6b-h5-CyP"/>
@@ -101,8 +101,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dqQ-d5-57N">
-                                <rect key="frame" x="62" y="267" width="250" height="150"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dqQ-d5-57N">
+                                <rect key="frame" x="62.5" y="267" width="250" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="dw7-9b-SCU"/>
                                     <constraint firstAttribute="height" constant="128" id="zpE-nB-6xe"/>
@@ -112,9 +112,21 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="XRb-zS-bgr" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="29m-aE-LG5"/>
+                            <constraint firstItem="AnB-Pc-0CW" firstAttribute="baseline" secondItem="CcA-Y7-8jT" secondAttribute="baseline" id="5zq-Yb-nWf"/>
                             <constraint firstItem="19B-hs-5Vf" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="CP5-fQ-rXE"/>
                             <constraint firstItem="CcA-Y7-8jT" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="D6N-nQ-ZbY"/>
+                            <constraint firstItem="x06-oQ-nAE" firstAttribute="baseline" secondItem="19B-hs-5Vf" secondAttribute="baseline" id="JoP-RE-xvl"/>
+                            <constraint firstItem="TD9-Gj-3g5" firstAttribute="centerX" secondItem="dqQ-d5-57N" secondAttribute="centerX" id="R16-e1-sGN"/>
+                            <constraint firstItem="AnB-Pc-0CW" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="We4-po-dhH"/>
+                            <constraint firstItem="x06-oQ-nAE" firstAttribute="top" secondItem="CcA-Y7-8jT" secondAttribute="bottom" constant="21" id="Wfj-nt-YBS"/>
                             <constraint firstItem="L7o-Xv-nqG" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="YeU-az-sfC"/>
+                            <constraint firstItem="L7o-Xv-nqG" firstAttribute="top" secondItem="TD9-Gj-3g5" secondAttribute="bottom" constant="42" id="gto-oX-0Lh"/>
+                            <constraint firstItem="TD9-Gj-3g5" firstAttribute="baseline" secondItem="XRb-zS-bgr" secondAttribute="baseline" id="kbg-4H-E6C"/>
+                            <constraint firstItem="x06-oQ-nAE" firstAttribute="leading" secondItem="TD9-Gj-3g5" secondAttribute="leading" id="kfU-v5-Z4a"/>
+                            <constraint firstItem="AnB-Pc-0CW" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" constant="26" id="nvM-mG-u4Y"/>
+                            <constraint firstItem="L7o-Xv-nqG" firstAttribute="top" secondItem="dqQ-d5-57N" secondAttribute="top" id="pM4-3c-LTQ"/>
+                            <constraint firstItem="TD9-Gj-3g5" firstAttribute="top" secondItem="19B-hs-5Vf" secondAttribute="bottom" constant="24" id="thb-de-f5I"/>
+                            <constraint firstItem="AnB-Pc-0CW" firstAttribute="leading" secondItem="x06-oQ-nAE" secondAttribute="leading" id="uN9-kW-Qec"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>

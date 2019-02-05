@@ -48,6 +48,6 @@ class DetailViewController: UIViewController {
             city.state = statetextField.text!
             city.population = Int(populationTextField.text!)!
         }
-        }
+    }
 }
 
